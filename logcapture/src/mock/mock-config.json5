@@ -1,0 +1,5 @@
+{
+  "liblogcapture.so": {
+    "source": "src/mock/Liblogcapture.mock.ets"
+  }
+}

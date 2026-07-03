@@ -1,0 +1,9 @@
+{
+  "module": {
+    "name": "logcapture",
+    "type": "har",
+    "deviceTypes": [
+      "default"
+    ]
+  }
+}

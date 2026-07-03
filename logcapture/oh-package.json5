@@ -1,0 +1,19 @@
+{
+  "name": "log-capture",
+  "version": "1.0.0",
+  "description": "Capture and inspect in-app hilog logs at runtime on HarmonyOS.",
+  "main": "Index.ets",
+  "author": "D & R <jdz321@163.com>",
+  "license": "Apache-2.0",
+  "keywords": [
+    "harmonyos",
+    "hilog",
+    "log",
+    "logging",
+    "napi"
+  ],
+  "repository": "https://github.com/jdz321/ohos-log-capture",
+  "dependencies": {
+    "liblogcapture.so": "file:./src/main/cpp/types/liblogcapture"
+  }
+}

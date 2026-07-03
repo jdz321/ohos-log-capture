@@ -1,0 +1,29 @@
+# Consumer obfuscation rules for log-capture.
+# Auto-applied to any app that depends on this HAR, so the package keeps
+# working even when the app enables -enable-export-obfuscation /
+# -enable-property-obfuscation.
+
+# Keep the re-exported API names (values are looked up on the native module
+# object at runtime; obfuscating them breaks the import).
+-keep-global-name
+  setCapture
+  getIgnoreTag
+  on
+  off
+  fetchLogs
+  clearLogs
+
+# Keep LogEntry / LogFilterOptions field names (read by property access).
+-keep-property-name
+  type
+  level
+  domain
+  tag
+  msg
+  keyword
+
+# Keep exported type names so consumers can import them.
+-keep-global-name
+  LogEntry
+  LogFilterOptions
+  LogListener
