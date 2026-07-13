@@ -1,6 +1,6 @@
 {
   "name": "log-capture",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Capture and inspect in-app hilog logs at runtime on HarmonyOS.",
   "main": "Index.ets",
   "author": "D & R <jdz321@163.com>",

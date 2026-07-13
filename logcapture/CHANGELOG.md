@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.1
+
+- Disable obfuscation to fix abnormal exported type names in the 1.0.0 obfuscated build.
+- Remove unused resource files.
+
 ## 1.0.0
 
 - Initial release.
